@@ -1,0 +1,31 @@
+.navbar {
+  position: right;
+  margin-bottom: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  padding: 0 10px;
+}
+
+
+.login-form { margin-bottom: 30px; }
+
+.form-title { margin-bottom: 20px; }
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.form-input {
+  padding: 13px 20px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+
