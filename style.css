@@ -58,8 +58,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #E3E6F3;
+  background: #FFF;
   box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 
 }
 #navbar{
@@ -104,6 +108,10 @@ body {
   align-items: center;
   justify-content: center;
   padding: 40px 160px;
+  /* z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0; */
 }
 .search-bar{
   width: 100%;
@@ -144,6 +152,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0; */
 }
 #options{
   display: flex;
@@ -152,7 +164,7 @@ body {
 }
 #options li{
   list-style: none;
-  padding: 0 20px;
+  padding: 20px 20px;
   position: relative;
 }
 #options li a{
@@ -162,7 +174,7 @@ body {
   color: white;
   transition: 0.3s ease;
   border-radius: 15px;
-  background-color: #17BEBB;
+  background-color: #607466;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -170,3 +182,31 @@ body {
   display: inline-block;
 }
 
+#home{
+  background-image: url("img/home.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#home h4{
+  padding-bottom: 15px;
+}
+#home h1{
+  color: #012A36;
+}
+#home button{
+   background-image: url("img/button.png");
+   background-color: transparent;
+   color: #088178;
+   border: 0;
+   padding: 14px 80px 14px 65px;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   font-size: 15px;
+}
